@@ -14,9 +14,9 @@ import Hat2 from "./Hat2/Hat2.js";
 import Scarf2 from "./Scarf2/Scarf2.js";
 import Snowmanface2 from "./Snowmanface2/Snowmanface2.js";
 import Bellyf2 from "./Bellyf2/Bellyf2.js";
-import _82FearfulEmojiPng from "./_82FearfulEmojiPng/_82FearfulEmojiPng.js";
-import _22GrinningFaceEmojiPng from "./_22GrinningFaceEmojiPng/_22GrinningFaceEmojiPng.js";
-import _65057EmoticonSignalSmileyThumbEmojiFreeFrame from "./_65057EmoticonSignalSmileyThumbEmojiFreeFrame/_65057EmoticonSignalSmileyThumbEmojiFreeFrame.js";
+import FearfulEmoji from "./FearfulEmoji/FearfulEmoji.js";
+import GrinningFaceEmoji from "./GrinningFaceEmoji/GrinningFaceEmoji.js";
+import EmoticonSignalSmileyThumbEmoji from "./EmoticonSignalSmileyThumbEmoji/EmoticonSignalSmileyThumbEmoji.js";
 import Button from "./Button/Button.js";
 import Ctree from "./Ctree/Ctree.js";
 import Sprite1 from "./Sprite1/Sprite1.js";
@@ -148,7 +148,7 @@ const sprites = {
     visible: false,
     layerOrder: 9
   }),
-  _82FearfulEmojiPng: new _82FearfulEmojiPng({
+  FearfulEmoji: new FearfulEmoji({
     x: 172,
     y: 112,
     direction: 90,
@@ -157,7 +157,7 @@ const sprites = {
     visible: false,
     layerOrder: 14
   }),
-  _22GrinningFaceEmojiPng: new _22GrinningFaceEmojiPng({
+  GrinningFaceEmoji: new GrinningFaceEmoji({
     x: 172,
     y: 112,
     direction: 90,
@@ -166,8 +166,7 @@ const sprites = {
     visible: false,
     layerOrder: 13
   }),
-  _65057EmoticonSignalSmileyThumbEmojiFreeFrame: new _65057EmoticonSignalSmileyThumbEmojiFreeFrame(
-    {
+  EmoticonSignalSmileyThumbEmoji: new EmoticonSignalSmileyThumbEmoji({
       x: 172,
       y: 112,
       direction: 90,
@@ -175,8 +174,7 @@ const sprites = {
       size: 25,
       visible: false,
       layerOrder: 15
-    }
-  ),
+  }),
   Button: new Button({
     x: 178,
     y: -137,
