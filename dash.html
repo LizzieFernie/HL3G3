@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>levels</title>
+
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+
+
+	<script src="https://cdn.jsdelivr.net/npm/party-js@latest/bundle/party.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@1,700&display=swap" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+
+
+
+
+</head>
+
+<body>
+
+	<body data-spy="scroll" data-target="#navbar" data-offset="150">
+
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			<div class="container-fluid">
+
+				 <a class="navbar-brand" href="#home"><img style=" width: 100px;
+           height: 50px;" src="logo.png"></img></a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+
+				<div class="collapse navbar-collapse" id="navbarNav">
+					<ul class="navbar-nav">
+						<li class="nav-item">
+							<a class="nav-link active" aria-current="page" href="#jumbotron">Home</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#appSummary">Content</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#footer">About</a>
+						</li>
+
+					</ul>
+				</div>
+			</div>
+
+		</nav>
+<!--<h1>😄Click the buttons to choose difficulty level of  Mazes🥺</h1>-->
+		<div class="row row-cols-1 row-cols-md-3 g-4">
+			<a href="https://lizziefernie.github.io/EL1G1/" style="text-decoration: none; color: #000;">
+				<div class="col">
+					<div class="card">
+						<img src="https://i.postimg.cc/52v2KYxp/bg2.jpg" class="card-img-top" alt="...">
+						<div class="card-body">
+							<h5 class="card-title">Easy</h5>
+
+							<p class="card-text"></p>
+						</div>
+					</div>
+				</div>
+			</a>
+
+			<a href="https://lizziefernie.github.io/ML1G1/" style="text-decoration: none; color: #000;">
+				<div class="col">
+					<div class="card">
+						<img src="https://i.postimg.cc/FHgQJjFt/bg3.jpg" class="card-img-top" alt="...">
+						<div class="card-body">
+							<h5 class="card-title">Medium</h5>
+							<p class="card-text"></p>
+						</div>
+					</div>
+				</div>
+			</a>
+
+
+			<a href="https://lizziefernie.github.io/HL3G1/" style="text-decoration: none; color: #000;">
+				<div class="col">
+					<div class="card">
+						<img src="https://i.postimg.cc/GhdKmYfT/jungle.jpg" class="card-img-top" alt="...">
+						<div class="card-body">
+							<h5 class="card-title">Hard</h5>
+							<p class="card-text"></p>
+						</div>
+					</div>
+				</div>
+			</a>
+
+		</div>
+
+	</body>
+	<style>
+		body {
+			overflow: hidden;
+			background-image: url(images/bg.png);
+			text-align: center;
+			height: 1080px;
+			width: 1920px;
+		}
+
+
+
+		#navbarNav {
+			font-size: 15px;
+			margin-left: 1530px;
+
+
+		}
+
+
+
+		.card:hover {
+			transform: scale(0.8);
+			transition-duration: 0.3s;
+			cursor: pointer;
+
+		}
+
+		.card {
+			width: 50%;
+			padding-bottom: 50px;
+
+		}
+
+
+		.row {
+			padding: 160px;
+		}
+
+
+		@media screen and (max-width: 1024px) {
+			* {
+
+				max-width: 1024px;
+
+			}
+
+			.card {
+				width: 100%;
+				padding: 20px;
+			}
+
+			.row {
+
+				padding: 130px;
+			}
+
+			#navbarNav {
+				font-size: 15px;
+				margin-left: 700px;
+				text-decoration: none;
+
+			}
+		}
+
+
+		@media screen and (max-width: 1366px) {
+			* {
+
+				max-width: 1366px;
+
+			}
+
+			.card {
+				width: 100%;
+				padding: 20px;
+			}
+
+			.row {
+
+				padding: 130px;
+			}
+
+			#navbarNav {
+				font-size: 15px;
+				margin-left: 1000px;
+				text-decoration: none;
+
+			}
+		}
+
+		body {
+			background-image: url('https://i.postimg.cc/G2HSVLyT/background-Robot.png');
+			background-size: cover;
+			background-repeat: no-repeat;
+		}
+	</style>
+
+</html>
