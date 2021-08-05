@@ -27,9 +27,7 @@ export default class Next extends Sprite {
   }
 
   *whenthisspriteclicked() {
-    this.stage.costume = "level";
-    this.broadcast("level");
-    yield* this.wait(1);
+    window.location.href = "https://lizziefernie.github.io/HL3G3/dash.html";
   }
 
   *whenIReceiveCtree() {
